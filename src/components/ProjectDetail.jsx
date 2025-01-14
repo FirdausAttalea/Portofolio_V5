@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import {
   ArrowLeft, ExternalLink, Github, Code2, Star,
-  ChevronRight, Layers, Layout, Globe, Package, Cpu, Code,
+  ChevronRight, Layers, Layout, Globe, Package, Cpu, Code, Database,
 } from "lucide-react";
 import Swal from 'sweetalert2';
 
@@ -14,6 +14,12 @@ const TECH_ICONS = {
   Javascript: Code,
   HTML: Code,
   CSS: Code,
+  Kotlin: Code,
+  JetpackCompose: Code,
+  Figma: Globe,
+  Firebase: Database,
+  Firestore: Database,
+  RoomDB : Database,
   default: Package,
 };
 
